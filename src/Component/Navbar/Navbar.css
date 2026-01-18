@@ -1,0 +1,41 @@
+:root {
+    --outfitFont: 'Outfit', sans-serif;
+    --poppinsFont: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+    box-shadow: 0 0 2px gray;
+    padding: 1.22rem;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(-10px);
+    filter: blur(50);
+}
+
+.nav-logo {
+    font-family: var(--outfitFont);
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    gap: 50px;
+}
+
+.nav-contact {
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: white;
+    color: #262626;
+    cursor: pointer;
+}
