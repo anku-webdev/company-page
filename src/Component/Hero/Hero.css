@@ -62,7 +62,103 @@
     gap: 30px;
 
 }
-.hero-play p{
+
+.hero-play p {
     color: white;
     font-size: 19px;
+}
+
+
+/* ======== TABLET (max-width: 900px) ======== */
+@media (max-width: 900px) {
+    .hero {
+        margin: 0px 60px;
+        margin-top: 10px;
+    }
+
+    .hero-text {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .hero-explore p {
+        font-size: 18px;
+    }
+
+    .hero-play p {
+        font-size: 17px;
+    }
+}
+
+/* ======== MOBILE (max-width: 480px) ======== */
+@media (max-width: 480px) {
+    .hero {
+        margin: 0px 15px;
+        margin-top: 15rem;
+    }
+
+    .hero-text {
+        font-size: 28px;
+        line-height: 40px;
+        text-align: left;
+    }
+
+    .hero-explore {
+        margin-top: 30px;
+        padding: 5px 6px;
+        padding-left: 20px;
+        gap: 15px;
+    }
+
+    .hero-explore p {
+        font-size: 14px;
+    }
+
+    .hero-explore img {
+        width: 35px;
+    }
+
+    .hero-dot-play {
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .hero-dots {
+        justify-content: center;
+    }
+
+    .hero-dots li {
+        width: 12px;
+        height: 12px;
+    }
+
+    .hero-play {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-play img {
+        width: 30px;
+    }
+
+    .hero-play p {
+        font-size: 14px;
+    }
+}
+
+/* ======== SMALL MOBILE (max-width: 360px) ======== */
+@media (max-width: 360px) {
+    .hero-text {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .hero-explore p {
+        font-size: 13px;
+    }
+
+    .hero-play p {
+        font-size: 13px;
+    }
 }
